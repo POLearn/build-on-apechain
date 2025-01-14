@@ -1,36 +1,45 @@
 {
     "metadata": {
         "owner": "polearn",
-        "name": "pol-template",
+        "name": "build-on-apechain",
         "chain": "656476",
-        "title": "Deploy Your First Smart Contract on Open Campus",
-        "description": "This course guides you through deploying your first smart contract on Open Campus. It also serves as a template for creating engaging and user-friendly courses on Proof of Learn.",
-        "image": "https://raw.githubusercontent.com/POLearn/pol-template/refs/heads/master/content/assets/cover.png"
+        "title": "Your Ape-proach to Web3 - Building on ApeChain",
+        "description": "This course will equip you with the knowledge and skills to build on the ApeChain blockchain. Learn about the fundamentals of ApeChain and develop your own projects.",
+        "image": "https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/cover.png"
     },
     "quests": [
         {
-            "path": "01_deploy_your_first_token/05_deploy",
-            "type": "deployment",
-            "bytecode": "0xa891761af84e22afaeaa82cf4cd09a7fa0eb2f88107861e42d055cb403bfb3fc"
+            "path": "01_basic_fundamental/06_getting_ape_testnet",
+            "type": "value",
+            "chain": "33111",
+            "from": "0x05C1A44374eE3dB90bCCEA6d5Bbda138d0874033",
+            "value": "1000000000000000000"
         },
         {
             "path": "01_deploy_your_first_token/06_set",
+            "contract": "0x0000000000000000000000000000000000000064",
             "type": "transaction",
             "args": [
-                "Vitalik"
+                "_"
             ],
             "abi": [
                 {
                     "inputs": [
                         {
-                            "internalType": "string",
-                            "name": "_name",
-                            "type": "string"
+                            "internalType": "address",
+                            "name": "destination",
+                            "type": "address"
                         }
                     ],
-                    "name": "set",
-                    "outputs": [],
-                    "stateMutability": "nonpayable",
+                    "name": "withdrawEth",
+                    "outputs": [
+                        {
+                            "internalType": "uint256",
+                            "name": "",
+                            "type": "uint256"
+                        }
+                    ],
+                    "stateMutability": "payable",
                     "type": "function"
                 }
             ]
