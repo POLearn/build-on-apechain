@@ -2,21 +2,21 @@
     "metadata": {
         "owner": "polearn",
         "name": "build-on-apechain",
-        "chain": "656476",
         "title": "Your Ape-proach to Web3 - Building on ApeChain",
         "description": "This course will equip you with the knowledge and skills to build on the ApeChain blockchain. Learn about the fundamentals of ApeChain and develop your own projects.",
         "image": "https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/cover.png"
     },
     "quests": [
         {
-            "path": "01_basic_fundamental/06_getting_ape_testnet",
+            "path": "01_exploring_apechain_hub/04_apechain_faucet",
             "type": "value",
             "chain": "33111",
             "from": "0x05C1A44374eE3dB90bCCEA6d5Bbda138d0874033",
             "value": "1000000000000000000"
         },
         {
-            "path": "01_deploy_your_first_token/06_set",
+            "path": "01_exploring_apechain_hub/05_bridging_to_arbitrum",
+            "chain": "33111",
             "contract": "0x0000000000000000000000000000000000000064",
             "type": "transaction",
             "args": [
@@ -45,9 +45,98 @@
             ]
         },
         {
-            "path": "02_tokens_using_openzeppelin",
+            "path": "01_exploring_apechain_hub/06_apechain_oracles",
+            "type": "data",
+            "chain": "33139",
+            "contract": "0x2880aB155794e7179c9eE2e38200202908C17B43",
+            "variable": "getPriceNoOlderThan",
+            "abi": [
+                {
+                    "inputs": [
+                        {
+                            "internalType": "bytes32",
+                            "name": "id",
+                            "type": "bytes32"
+                        },
+                        {
+                            "internalType": "uint256",
+                            "name": "age",
+                            "type": "uint256"
+                        }
+                    ],
+                    "name": "getPriceNoOlderThan",
+                    "outputs": [
+                        {
+                            "components": [
+                                {
+                                    "internalType": "int64",
+                                    "name": "price",
+                                    "type": "int64"
+                                },
+                                {
+                                    "internalType": "uint64",
+                                    "name": "conf",
+                                    "type": "uint64"
+                                },
+                                {
+                                    "internalType": "int32",
+                                    "name": "expo",
+                                    "type": "int32"
+                                },
+                                {
+                                    "internalType": "uint256",
+                                    "name": "publishTime",
+                                    "type": "uint256"
+                                }
+                            ],
+                            "internalType": "struct PythStructs.Price",
+                            "name": "price",
+                            "type": "tuple"
+                        }
+                    ],
+                    "stateMutability": "view",
+                    "type": "function"
+                }
+            ],
+            "args": [
+                "0x15add95022ae13563a11992e727c91bdb6b55bc183d9d747436c80a483d8c864",
+                "1736651044"
+            ]
+        },
+        {
+            "path": "02_deploying_an_nft/02_deploy_to_apechain",
+            "chain": "33111",
             "type": "deployment",
-            "bytecode": "0xc256a39b34c66c9dd356af7ac12af8f7b7756ee5f117f3e5a0d904222d3afa6f"
+            "bytecode": "0x62d0d2ca47b11e9a46ec19d0842b6ee01a4b697584bd898199e0cf306e96f1c8"
+        },
+        {
+            "path": "02_deploying_an_nft/03_mint_ape_nft",
+            "chain": "33111",
+            "type": "transaction",
+            "abi": [
+                {
+                    "inputs": [
+                        {
+                            "internalType": "address",
+                            "name": "to",
+                            "type": "address"
+                        },
+                        {
+                            "internalType": "string",
+                            "name": "uri",
+                            "type": "string"
+                        }
+                    ],
+                    "name": "safeMint",
+                    "outputs": [],
+                    "stateMutability": "nonpayable",
+                    "type": "function"
+                }
+            ],
+            "args": [
+                "_",
+                "ipfs://QmbS1hY1v158TXgEPAsxYwUe7BXFTZQXwAQA4BdJiStW9R"
+            ]
         }
     ]
 }
