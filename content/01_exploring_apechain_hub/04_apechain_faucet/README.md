@@ -1,24 +1,23 @@
-# Obtaining some $ApeCoin on ApeChain
+# Получение $ApeCoin на ApeChain
 
-Throughout the course, we'll explore and learn the many tools and deploying a NFT on Apechain. In order to so, we;ll need some $APE on Testnet.
+В течение курса мы исследуем и изучим множество инструментов для развертывания NFT на ApeChain. Для этого нам понадобится немного $APE на Testnet.
 
-1. **Access the Curtis Testnet Hub Page**:  
-Visit the [Curtis Testnet Hub Page](https://curtis.hub.caldera.xyz/) to begin your journey.
+1. **Перейдите на страницу хаба Curtis Testnet**:  
+Посетите [страницу хаба Curtis Testnet](https://curtis.hub.caldera.xyz/), чтобы начать.
 
-
-2. **Navigate to the Faucet Tab**:  
-Click on the Faucet tab in the navigation menu to proceed to the token request section.
+2. **Перейдите на вкладку Faucet**:  
+Нажмите на вкладку Faucet в навигационном меню, чтобы перейти к разделу запроса токенов.
 
 ![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/faucet_tab.png)
 
-3. **Request Testnet $APE**:  
-Enter your wallet address in the input field and click the Request button to claim testnet $APE tokens.
+3. **Запросите тестовые $APE**:  
+Введите свой адрес кошелька в поле ввода и нажмите кнопку "Request", чтобы получить тестовые токены $APE.
 
-4. **Success Confirmation**:  
-Once the transaction is completed, a confirmation message will appear, and your testnet $APE will be added to your wallet.
+4. **Подтверждение успешной транзакции**:  
+После завершения транзакции появится сообщение с подтверждением, и ваши тестовые $APE будут добавлены в ваш кошелек.
 
 ![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/faucet_success.png)
 
-### 🚀 Quest: Claim $APE on Curtis
+### 🚀 Задание: Получите $APE на Curtis
 
-To progress in earning your POAP, ensure you complete this quest by obtaining testnet $APE and submitting the transaction details to the Proof of Learn platform.
+Чтобы продолжить зарабатывать ваш POAP, обязательно выполните это задание, получив тестовые $APE, и отправьте детали транзакции на платформу Proof of Learn.

@@ -1,36 +1,35 @@
-# Connecting to ApeChain
+# Подключение к ApeChain
 
-Let start by connect ApeChain's **Curtis Testnet** or **Mainnet**. The best way is through it's offical hub platform.
+Начнем с подключения к **Curtis Testnet** или **Mainnet** ApeChain. Лучший способ — через официальную платформу-хаб.
 
-## **Connecting to ApeChain Mainnet**
-1. **Using the Hub Page**
-   - Visit the [ApeChain Mainnet Hub Page](https://apechain.hub.caldera.xyz/).
-   - Click the **Add to Metamask** button to switch to the ApeChain Mainnet.
+## **Подключение к ApeChain Mainnet**
+1. **Использование страницы хаба**
+   - Перейдите на [страницу хаба ApeChain Mainnet](https://apechain.hub.caldera.xyz/).
+   - Нажмите кнопку **Добавить в MetaMask**, чтобы переключиться на ApeChain Mainnet.
 
 ![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/network_page.png)
 
-2. **Manually Add the Mainnet**
-   - Open **MetaMask** and navigate to **Settings > Networks > Add Network**.
-   - Enter the following details:
-     - **Network Name**: ApeChain Mainnet
+2. **Ручное добавление Mainnet**
+   - Откройте **MetaMask** и перейдите в **Настройки > Сети > Добавить сеть**.
+   - Введите следующие данные:
+     - **Название сети**: ApeChain Mainnet
      - **RPC URL**: https://rpc.apechain.com/http
      - **Chain ID**: 33139
-     - **Currency Symbol**: APE
-     - **Block Explorer URL**: [ApeChain Mainnet Explorer](https://apescan.io/)
+     - **Символ валюты**: APE
+     - **URL блок-эксплорера**: [ApeChain Mainnet Explorer](https://apescan.io/)
 
-*Similarly*
-## **Connecting to ApeChain Testnet**
-1. **Using the Hub Page**:
-   - Visit the [Curtis Testnet Hub Page](https://curtis.hub.caldera.xyz/).
-   - Click the **Add to Metamask** button to switch to the ApeChain Testnet.
+*Аналогично*
+## **Подключение к ApeChain Testnet**
+1. **Использование страницы хаба**:
+   - Перейдите на [страницу хаба Curtis Testnet](https://curtis.hub.caldera.xyz/).
+   - Нажмите кнопку **Добавить в MetaMask**, чтобы переключиться на ApeChain Testnet.
 
-### **ApeChain Network Information**
+### **Информация о сети ApeChain**
 
-| **Detail**          | **Curtis Testnet**                 | **ApeChain Mainnet**             |
-|----------------------|------------------------------------|-----------------------------------|
-| **Network Name**     | Curtis Testnet                    | ApeChain Mainnet                 |
-| **RPC URL**          | https://curtis.rpc.caldera.xyz/http | https://rpc.apechain.com/http    |
-| **Chain ID**         | 33111                             | 33139                            |
-| **Currency Symbol**  | APE                               | APE                              |
-| **Block Explorer URL** | [Curtis Testnet Explorer](https://curtis.apescan.io/) | [ApeChain Mainnet Explorer](https://apescan.io/) |
-
+| **Детали**          | **Curtis Testnet**                 | **ApeChain Mainnet**             |
+|---------------------|------------------------------------|----------------------------------|
+| **Название сети**   | Curtis Testnet                     | ApeChain Mainnet                 |
+| **RPC URL**          | https://curtis.rpc.caldera.xyz/http | https://rpc.apechain.com/http   |
+| **Chain ID**         | 33111                              | 33139                            |
+| **Символ валюты**    | APE                                | APE                              |
+| **URL блок-эксплорера** | [Curtis Testnet Explorer](https://curtis.apescan.io/) | [ApeChain Mainnet Explorer](https://apescan.io/) |

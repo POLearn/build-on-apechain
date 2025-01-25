@@ -1,37 +1,37 @@
-# ApeChain Bridge
+# Мост ApeChain
 
-## What is a Bridge?
+## Что такое мост?
 
-A crypto bridge is a tool that enables the transfer of assets across different blockchain networks. It serves as a connection point, allowing users to move liquidity seamlessly between chains. With a user-friendly interface, crypto bridges make it easy for individuals to interact and transfer assets between platforms. Features often include customizable branding, clear navigation, and the ability to support transfers between various blockchains, enhancing the overall blockchain ecosystem.
+Криптомост — это инструмент, который позволяет передавать активы между различными блокчейн-сетями. Он служит точкой соединения, позволяя пользователям беспрепятственно перемещать ликвидность между цепочками. С помощью удобного интерфейса криптомосты делают взаимодействие и передачу активов между платформами легкими и понятными. Часто они включают настраиваемый брендинг, четкую навигацию и возможность поддерживать переводы между различными блокчейнами, что способствует улучшению общей экосистемы блокчейнов.
 
-## ApeChain Bridge
+## Мост ApeChain
 
-The ApeChain Bridge is a feature within the ApeChain ecosystem that allows users to bridge, swap, and on-ramp tokens. It is designed to facilitate the movement of assets between different blockchain networks, making it easier for users to interact with the ApeChain ecosystem. For more details, you can visit the [ApeChain Portal](https://curtis.bridge.caldera.xyz/)
+Мост ApeChain — это функция в экосистеме ApeChain, которая позволяет пользователям переносить, обменивать и интегрировать токены. Он разработан для упрощения перемещения активов между различными блокчейн-сетями, что делает взаимодействие с экосистемой ApeChain более удобным. Для получения дополнительной информации посетите [Портал ApeChain](https://curtis.bridge.caldera.xyz/)
 
 ![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/bridge.png)
 
-*Note this is the testnet one*
+*Обратите внимание, что это версия для тестнета.*
 
-### Quest: Bridge to Arbitrum
+### Задание: Перенос на Arbitrum
 
-1. **Access the ApeChain Bridge**  
-Visit the **ApeChain Bridge** interface via the Curtis Testnet or ApeChain Mainnet based on your requirements. Example: [Curtis Testnet Hub](https://curtis.hub.caldera.xyz/).  
+1. **Перейдите на мост ApeChain**  
+Посетите интерфейс **Моста ApeChain** через Curtis Testnet или ApeChain Mainnet в зависимости от ваших требований. Пример: [Hub Curtis Testnet](https://curtis.hub.caldera.xyz/).
 
-2. **Connect Your Wallet**  
-Click the **wallet connect button** in the top-right corner and connect your wallet (e.g., MetaMask). Make sure it is connected to the correct network, such as the Curtis Testnet or ApeChain Mainnet.  
+2. **Подключите ваш кошелек**  
+Нажмите на **кнопку подключения кошелька** в верхнем правом углу и подключите ваш кошелек (например, MetaMask). Убедитесь, что он подключен к нужной сети, такой как Curtis Testnet или ApeChain Mainnet.
 
-3. **Select Source and Destination Chains**  
-In the bridge section, choose **Curtis (Testnet)** or another chain like ApeChain Mainnet as the source chain, and set the destination chain (e.g., **Arbitrum Sepolia**).  
+3. **Выберите исходную и целевую цепочки**  
+В разделе моста выберите **Curtis (Testnet)** или другую цепочку, такую как ApeChain Mainnet, как исходную, и установите целевую цепочку (например, **Arbitrum Sepolia**).
 
-4. **Choose Asset and Swap**  
-Pick the token to bridge, such as `$APE`, and 0.5 APEcoin as the **amount** of tokens to transfer. Then click **Swap** to start the bridging process and confirm the transaction with the provided wallet.
+4. **Выберите актив и обменяйте**  
+Выберите токен для моста, например, `$APE`, и установите 0,5 APEcoin как **сумму** токенов для передачи. Затем нажмите **Swap**, чтобы начать процесс моста, и подтвердите транзакцию с помощью предоставленного кошелька.
 
 ![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/bridge_swap.png)
 
-### 🚀 Quest: Bridge 0.5 $APE to Arbitrum Sepolia
+### 🚀 Задание: Перенос 0,5 $APE в Arbitrum Sepolia
 
-The bridging process may take a few minutes to complete. Once it’s done, you’ll have successfully bridged 0.5 $APE across chains! You can review your transaction details in the History tab, where all completed transactions are recorded.
+Процесс моста может занять несколько минут. Как только он завершится, вы успешно перенесете 0,5 $APE между цепочками! Вы можете просмотреть детали транзакции на вкладке История, где записываются все завершенные транзакции.
 
 ![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/bridge_history.png)
 
-Use the transaction information from the History tab to submit your quest on POL and be on your way to a POAP!
+Используйте информацию о транзакции из вкладки История, чтобы отправить ваше задание на платформу POL и продвигаться к POAP!
