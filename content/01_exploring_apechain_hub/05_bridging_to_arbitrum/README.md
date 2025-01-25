@@ -1,37 +1,37 @@
 # ApeChain Bridge
 
-## What is a Bridge?
+## O que é uma Bridge?
 
-A crypto bridge is a tool that enables the transfer of assets across different blockchain networks. It serves as a connection point, allowing users to move liquidity seamlessly between chains. With a user-friendly interface, crypto bridges make it easy for individuals to interact and transfer assets between platforms. Features often include customizable branding, clear navigation, and the ability to support transfers between various blockchains, enhancing the overall blockchain ecosystem.
+Uma crypto bridge é uma ferramenta que permite a transferência de ativos entre diferentes redes de blockchain. Ela serve como um ponto de conexão, permitindo que os usuários movam liquidez entre as cadeias de forma contínua. Com uma interface amigável, as crypto bridges facilitam a interação e a transferência de ativos entre plataformas. Os recursos geralmente incluem branding personalizável, navegação clara e a capacidade de suportar transferências entre várias blockchains, aprimorando o ecossistema geral de blockchain.
 
 ## ApeChain Bridge
 
-The ApeChain Bridge is a feature within the ApeChain ecosystem that allows users to bridge, swap, and on-ramp tokens. It is designed to facilitate the movement of assets between different blockchain networks, making it easier for users to interact with the ApeChain ecosystem. For more details, you can visit the [ApeChain Portal](https://curtis.bridge.caldera.xyz/)
+A ApeChain Bridge é um recurso dentro do ecossistema ApeChain que permite aos usuários fazer bridge, trocar e transferir tokens. Foi projetada para facilitar o movimento de ativos entre diferentes redes de blockchain, tornando mais fácil para os usuários interagirem com o ecossistema ApeChain. Para mais detalhes, você pode visitar o [ApeChain Portal](https://curtis.bridge.caldera.xyz/)
 
 ![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/bridge.png)
 
-*Note this is the testnet one*
+*Nota: esta é a versão testnet*
 
-### Quest: Bridge to Arbitrum
+### Quest: Bridge para Arbitrum
 
-1. **Access the ApeChain Bridge**  
-Visit the **ApeChain Bridge** interface via the Curtis Testnet or ApeChain Mainnet based on your requirements. Example: [Curtis Testnet Hub](https://curtis.hub.caldera.xyz/).  
+1. **Acesse a ApeChain Bridge**  
+Visite a interface da **ApeChain Bridge** através da Curtis Testnet ou ApeChain Mainnet, dependendo de suas necessidades. Exemplo: [Curtis Testnet Hub](https://curtis.hub.caldera.xyz/).  
 
-2. **Connect Your Wallet**  
-Click the **wallet connect button** in the top-right corner and connect your wallet (e.g., MetaMask). Make sure it is connected to the correct network, such as the Curtis Testnet or ApeChain Mainnet.  
+2. **Conecte Sua Carteira**  
+Clique no **botão de conexão da carteira** no canto superior direito e conecte sua carteira (exemplo: MetaMask). Certifique-se de que está conectada à rede correta, como Curtis Testnet ou ApeChain Mainnet.  
 
-3. **Select Source and Destination Chains**  
-In the bridge section, choose **Curtis (Testnet)** or another chain like ApeChain Mainnet as the source chain, and set the destination chain (e.g., **Arbitrum Sepolia**).  
+3. **Selecione as Cadeias de Origem e Destino**  
+Na seção de bridge, escolha **Curtis (Testnet)** ou outra cadeia como ApeChain Mainnet como a cadeia de origem, e defina a cadeia de destino (por exemplo, **Arbitrum Sepolia**).  
 
-4. **Choose Asset and Swap**  
-Pick the token to bridge, such as `$APE`, and 0.5 APEcoin as the **amount** of tokens to transfer. Then click **Swap** to start the bridging process and confirm the transaction with the provided wallet.
+4. **Escolha o Ativo e Troque**  
+Escolha o token para fazer o bridge, como `$APE`, e 0,5 APEcoin como a **quantidade** de tokens a serem transferidos. Em seguida, clique em **Trocar** para iniciar o processo de bridge e confirme a transação com a carteira fornecida.
 
 ![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/bridge_swap.png)
 
-### 🚀 Quest: Bridge 0.5 $APE to Arbitrum Sepolia
+### 🚀 Quest: Bridge 0.5 $APE para Arbitrum Sepolia
 
-The bridging process may take a few minutes to complete. Once it’s done, you’ll have successfully bridged 0.5 $APE across chains! You can review your transaction details in the History tab, where all completed transactions are recorded.
+O processo de bridge pode levar alguns minutos para ser concluído. Quando terminar, você terá realizado com sucesso o bridge de 0,5 $APE entre as cadeias! Você pode revisar os detalhes da sua transação na aba de Histórico, onde todas as transações concluídas são registradas.
 
 ![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/bridge_history.png)
 
-Use the transaction information from the History tab to submit your quest on POL and be on your way to a POAP!
+Use as informações da transação na aba de Histórico para enviar sua quest no POL e seguir em direção a um POAP!

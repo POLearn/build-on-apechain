@@ -1,39 +1,39 @@
-# What is an Oracle
+# O que é um Oracle
 
-Before exploring Price Oracles for APEChain, let’s quickly cover what an oracle is. In the world of smart contracts, an oracle is a service that provides real-world data to blockchains. Since blockchains can't access external information directly, oracles act as bridges, bringing off-chain data—like prices, weather, or sports scores—onto the blockchain.
+Antes de explorar os Price Oracles para a APEChain, vamos rapidamente entender o que é um oracle. No mundo dos contratos inteligentes, um oracle é um serviço que fornece dados do mundo real para blockchains. Como as blockchains não podem acessar informações externas diretamente, os oracles atuam como pontes, trazendo dados off-chain—como preços, clima ou placares esportivos—para a blockchain.
 
-For APEChain, the oracle service is provided by Pyth Network, which delivers real-time, high-quality market data. Pyth aggregates data from trusted sources like exchanges and market makers, ensuring accuracy and minimizing manipulation risks, so APEChain can rely on up-to-date, reliable information for its smart contracts
+Para a APEChain, o serviço de oracle é fornecido pela Pyth Network, que entrega dados de mercado em tempo real e de alta qualidade. A Pyth agrega dados de fontes confiáveis, como exchanges e market makers, garantindo precisão e minimizando os riscos de manipulação, para que a APEChain possa confiar em informações confiáveis e atualizadas para seus contratos inteligentes.
 
 ## ApeChain Oracle
 
-We'll start by loading a contract onto the ApeChain mainnet Oracle. Specifically, we'll use the contract at address `0x2880aB155794e7179c9eE2e38200202908C17B43`, which is part of the ApeChain Oracle setup.
+Vamos começar carregando um contrato na ApeChain mainnet Oracle. Especificamente, vamos usar o contrato no endereço `0x2880aB155794e7179c9eE2e38200202908C17B43`, que faz parte da configuração do ApeChain Oracle.
 
-You can also check out the [full documentation here](https://docs.apechain.com/oracles) for a deeper understanding of how oracles work and how you can integrate them into your projects.
+Você também pode conferir a [documentação completa aqui](https://docs.apechain.com/oracles) para um entendimento mais profundo sobre como os oracles funcionam e como você pode integrá-los em seus projetos.
 
-Let's load this in your desired IDE.
+Vamos carregar isso no seu IDE desejado.
 
 ![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/oracle_load.png)
 
 ### `getPriceNoOlderThan`
 
-Access to real-time price data is crucial when building decentralized applications (dApps). The `getPriceNoOlderThan` method allows you to retrieve the most recent price object for a specific price feed ID, ensuring that the price data is up-to-date within a time frame you specify.
+O acesso a dados de preço em tempo real é crucial ao construir aplicativos descentralizados (dApps). O método `getPriceNoOlderThan` permite recuperar o objeto de preço mais recente para um ID específico de feed de preço, garantindo que os dados de preço estejam atualizados dentro do intervalo de tempo que você especificar.
 
 ![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/oracle_method.png)
 
-When you call the `getPriceNoOlderThan` method, you’ll provide two key arguments: the **price feed ID** and an **age** value. The **ID** specifies which price feed you want to access, while the **age** defines how recent the data can be. This is useful when you need a price that was updated at a specific point in time or for historical price data.
+Quando você chama o método `getPriceNoOlderThan`, você fornecerá dois argumentos principais: o **ID do feed de preço** e um valor de **idade**. O **ID** especifica qual feed de preço você deseja acessar, enquanto a **idade** define quão recente os dados podem ser. Isso é útil quando você precisa de um preço que foi atualizado em um momento específico ou para dados históricos de preços.
 
-You can find the price feed IDs on the [Pyth Network Price Feed page](https://www.pyth.network/developers/price-feed-ids). For example, one of the price feed IDs available is for **ApeCoin/USD**, which is the ID we will use for our example.
+Você pode encontrar os IDs dos feeds de preço na [página de Price Feed da Pyth Network](https://www.pyth.network/developers/price-feed-ids). Por exemplo, um dos IDs de feed de preço disponíveis é para **ApeCoin/USD**, que é o ID que vamos usar em nosso exemplo.
 
 ![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/pyth_id.png)
 
-The `getPriceNoOlderThan` method returns a **price object** that contains the following key fields:
+O método `getPriceNoOlderThan` retorna um **objeto de preço** que contém os seguintes campos principais:
 
-- **price**: The most recent price of the asset from the price feed.
-- **conf**: The confidence level of the price, indicating how reliable the price feed is.
-- **expo**: The exponent used for scaling the price.
-- **publishTime**: The timestamp indicating when the price feed was last updated.
+- **price**: O preço mais recente do ativo no feed de preço.
+- **conf**: O nível de confiança do preço, indicando a confiabilidade do feed de preço.
+- **expo**: O expoente usado para escalonar o preço.
+- **publishTime**: O timestamp indicando quando o feed de preço foi atualizado pela última vez.
 
-Here’s an example of a price object you might receive:
+Aqui está um exemplo de um objeto de preço que você pode receber:
 
 ```json
 {
@@ -44,15 +44,15 @@ Here’s an example of a price object you might receive:
 }
 ```
 
-### 🚀 Quest: Calling
+### 🚀 Quest: Chamada
 
-For this final section of the POAP, let's call the `getPriceNoOlderThan` method to retrieve the price data for **Ape/USD** using the specified **Price Feed ID** and **timestamp**.
+Para esta última seção do POAP, vamos chamar o método `getPriceNoOlderThan` para recuperar os dados de preço para **Ape/USD** usando o **ID de Feed de Preço** especificado e o **timestamp**.
 
-Here’s what we’ll use:
+Aqui está o que usaremos:
 
-- **Price Feed ID**: `0x15add95022ae13563a11992e727c91bdb6b55bc183d9d747436c80a483d8c864` (for Ape/USD)
+- **ID de Feed de Preço**: `0x15add95022ae13563a11992e727c91bdb6b55bc183d9d747436c80a483d8c864` (para Ape/USD)
 - **Timestamp**: `1736651044`
 
-Now, let's see how to call this method and get the result! We can see a value of `99675229`, which at the time was **0.99 USD**. For this submission, let's submit the entire JSON.
+Agora, vamos ver como chamar este método e obter o resultado! Podemos ver um valor de `99675229`, que na época era **0,99 USD**. Para esta submissão, vamos enviar o JSON completo.
 
 ![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/oracle_result.png)

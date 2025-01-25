@@ -1,9 +1,8 @@
-# Setup
+# Configuração
 
-Let load up the contract https://github.com/POLearn/build-on-apechain/blob/master/contract/ApeNFT.sol
+Vamos carregar o contrato [ApeNFT.sol](https://github.com/POLearn/build-on-apechain/blob/master/contract/ApeNFT.sol)
 
 ![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/nft_load.png)
-
 
 ```solidity
 import {ERC721} from "@openzeppelin/contracts/token/ERC721/ERC721.sol";
@@ -12,16 +11,16 @@ import {ERC721URIStorage} from "@openzeppelin/contracts/token/ERC721/extensions/
 import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
 ```
 
-Let's first a look at a important section fo the NFT smart contract. That is the OpenZeppeling libraries. 
+Vamos dar uma olhada em uma seção importante do contrato NFT. São as bibliotecas da OpenZeppelin.
 
-OpenZeppelin is a widely trusted library of modular, reusable, and secure smart contract components for EVM such as Arbtrum and ApeChain. It adheres to industry best practices and provides developers with tools to create robust decentralized applications. OpenZeppelin's contracts are audited, ensuring their reliability and security.
+A OpenZeppelin é uma biblioteca amplamente confiável de componentes modulares, reutilizáveis e seguros para contratos inteligentes no EVM, como Arbitrum e ApeChain. Ela segue as melhores práticas do setor e oferece aos desenvolvedores ferramentas para criar aplicativos descentralizados robustos. Os contratos da OpenZeppelin são auditados, garantindo sua confiabilidade e segurança.
 
-At its core, OpenZeppelin implements standards like **ERC20**, **ERC721**, and **ERC1155**, which define widely accepted interfaces for fungible tokens, non-fungible tokens (NFTs), and multi-token standards, respectively. These standards enable interoperability across blockchain applications, ensuring that tokens or contracts created with OpenZeppelin can integrate seamlessly with wallets, marketplaces, and decentralized finance (DeFi) protocols.
+No seu núcleo, a OpenZeppelin implementa padrões como **ERC20**, **ERC721** e **ERC1155**, que definem interfaces amplamente aceitas para tokens fungíveis, tokens não fungíveis (NFTs) e padrões de múltiplos tokens, respectivamente. Esses padrões permitem a interoperabilidade entre aplicações blockchain, garantindo que tokens ou contratos criados com a OpenZeppelin possam ser integrados facilmente com carteiras, marketplaces e protocolos de finanças descentralizadas (DeFi).
 
-The **ERC721** contract provides the foundational framework for NFTs. It defines the basic functionality of non-fungible tokens, including unique ownership, transfer mechanisms, and metadata support. By importing this standard, the contract ensures compatibility with platforms or wallets supporting NFTs, such as OpenSea or MetaMask.
+O contrato **ERC721** fornece a estrutura fundamental para NFTs. Ele define a funcionalidade básica dos tokens não fungíveis, incluindo a propriedade única, mecanismos de transferência e suporte a metadados. Ao importar esse padrão, o contrato garante compatibilidade com plataformas ou carteiras que suportam NFTs, como OpenSea ou MetaMask.
 
-The **ERC721Enumerable** extension enhances the standard ERC721 functionality by enabling enumeration of all tokens in circulation or tokens owned by a specific address. This makes it easy to query data like "What tokens belong to a given user?" or "How many tokens are in existence?" It’s particularly useful for marketplaces or dashboards displaying NFT collections.
+A extensão **ERC721Enumerable** aprimora a funcionalidade do ERC721 padrão, permitindo a enumeração de todos os tokens em circulação ou tokens pertencentes a um endereço específico. Isso facilita consultas como "Quais tokens pertencem a um determinado usuário?" ou "Quantos tokens existem?" É particularmente útil para marketplaces ou dashboards que exibem coleções de NFTs.
 
-The **ERC721URIStorage** extension adds advanced functionality for managing token metadata. It allows each token to store a unique URI, enabling dynamic and detailed metadata for individual NFTs. This is ideal for creating tokens with rich content, such as images or other associated files.
+A extensão **ERC721URIStorage** adiciona funcionalidades avançadas para gerenciar os metadados dos tokens. Ela permite que cada token armazene uma URI única, possibilitando metadados dinâmicos e detalhados para NFTs individuais. Isso é ideal para criar tokens com conteúdo rico, como imagens ou outros arquivos associados.
 
-The **Ownable** contract introduces a simple access control mechanism where certain functions can only be executed by the owner of the contract. It includes features like transferring ownership and restricting access to specific functions (e.g., minting). This ensures that critical operations are safeguarded against unauthorized access.
+O contrato **Ownable** introduz um mecanismo simples de controle de acesso, onde certas funções só podem ser executadas pelo proprietário do contrato. Ele inclui funcionalidades como transferir a propriedade e restringir o acesso a funções específicas (por exemplo, mintagem). Isso garante que operações críticas estejam protegidas contra acessos não autorizados.
