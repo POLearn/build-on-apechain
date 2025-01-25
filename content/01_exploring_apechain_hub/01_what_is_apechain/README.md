@@ -1,20 +1,20 @@
-# What is ApeChain?
+# ApeChainとは？
 
-ApeChain is a cutting-edge Layer 3 (L3) blockchain built on Arbitrum Orbit by the ApeCoin DAO. Designed as the backbone of the ApeCoin ecosystem, it offers **high-speed transactions**, **low fees**, and **EVM compatibility**. Powered by $APE as its native gas token, ApeChain drives a vibrant economy with innovative features like **Native Yield**, allowing users to earn rewards even when their tokens are idle.  
+ApeChainは、ApeCoin DAOによってArbitrum Orbit上に構築された最先端のLayer 3（L3）ブロックチェーンです。ApeCoinエコシステムのバックボーンとして設計され、**高速な取引**、**低料金**、および**EVM互換性**を提供します。ネイティブガストークンとして$APEを使用し、**Native Yield**などの革新的な機能を通じて、トークンがアイドル状態でもユーザーが報酬を得ることができる活気ある経済を推進します。
 
-Whether you're a developer, gamer, or blockchain enthusiast, ApeChain simplifies blockchain interactions, enabling seamless access to decentralized finance, NFTs, and the metaverse.
+開発者、ゲーマー、またはブロックチェーン愛好者のいずれであっても、ApeChainはブロックチェーンの相互作用を簡素化し、分散型金融、NFT、メタバースへのシームレスなアクセスを可能にします。
 
 ![](https://docs.apechain.com/_next/static/media/apechain-logo.3f86672d.svg)
 
-## What makes ApeChain unique?
+## ApeChainのユニークな点は？
 
-ideal platform for developers, gamers, and investors alike. Its focus on discovery, competition, and distribution ensures that ApeChain is not only a tool for innovation but also a bridge to the future of decentralized ecosystem
+開発者、ゲーマー、投資家にとって理想的なプラットフォームです。発見、競争、配布に焦点を当てているため、ApeChainは単なるイノベーションのツールではなく、分散型エコシステムの未来への架け橋となっています。
 
-- Native Yield & Thriving Economy
-ApeChain’s **Native Yield**, powered by LayerZero, allows users to earn rewards in $APE, ETH, and stablecoins. With $APE as its gas token, ApeChain ensures a dynamic and cohesive ecosystem centered around the ApeCoin economy.  
-- Seamless User Experience
-Launching a user-friendly ecosystem website in **September 2024**, ApeChain simplifies onboarding with tools from Halliday, Decent, and Privy. Features like account abstraction and fiat onramps make blockchain accessible to all.  
-- Immersive Metaverse Integration
-ApeChain powers Yuga Labs’ **Otherside metaverse** through the Open Development Kit (ODK). Users can trade NFTs directly within the metaverse, creating engaging, immersive crypto experiences.  
-- Advanced Interoperability
-Built as a Layer 3, ApeChain bridges Ethereum (L1) and Arbitrum (L2), offering seamless blockchain communication while maintaining high efficiency and security.  
+- **Native Yield & 活気ある経済**
+ApeChainの**Native Yield**は、LayerZeroにより強力な報酬システムを提供し、ユーザーが$APE、ETH、安定コインで報酬を得ることを可能にします。$APEをガストークンとして使用することで、ApeChainはApeCoin経済を中心に動的で一貫したエコシステムを構築します。
+- **シームレスなユーザー体験**
+2024年9月にユーザーフレンドリーなエコシステムウェブサイトを立ち上げる予定で、ApeChainはHalliday、Decent、Privyなどのツールを用いてオンボーディングを簡素化します。アカウント抽象化やフィアットのオンラップ機能などにより、誰でもブロックチェーンを簡単に利用できるようになります。
+- **没入型メタバース統合**
+ApeChainは、Yuga Labsの**Othersideメタバース**をOpen Development Kit（ODK）を通じて支援します。ユーザーはメタバース内で直接NFTを取引でき、魅力的で没入感のある暗号体験を作り出します。
+- **高度な相互運用性**
+Layer 3として構築されたApeChainは、Ethereum（L1）とArbitrum（L2）をブリッジし、高い効率性とセキュリティを維持しながらシームレスなブロックチェーン間通信を提供します。

@@ -1,9 +1,9 @@
-# BAYC NFT and NFT on ApeChain
+# BAYC NFTとApeChain上のNFT
 
 ![](https://www.todaynftnews.com/wp-content/uploads/2022/07/BAYC-The-story-of-the-most-successful-NFT-ever.jpg)
 
-You’ve probably heard of the Bored Ape Yacht Club (BAYC)—the iconic collection of NFTs that has taken the world by storm. But did you know that BAYC isn’t just about collecting cool digital art? It’s also the backbone of the ApeCoin ecosystem, with $APE serving as the native token for the community. And to supercharge this ecosystem, we have ApeChain, a blockchain that enhances the utility of ApeCoin and fosters a thriving, dynamic economy.
+おそらく、Bored Ape Yacht Club (BAYC)という名前は耳にしたことがあるでしょう。これは、世界中で大きな話題を呼んでいるNFTの象徴的なコレクションです。しかし、BAYCは単にクールなデジタルアートを収集することだけではないことをご存知でしょうか？BAYCはまた、ApeCoinエコシステムの背骨であり、$APEはコミュニティのネイティブトークンとして機能しています。そして、このエコシステムを加速させるために、私たちにはApeChainがあります。ApeChainは、ApeCoinのユーティリティを強化し、活気に満ちたダイナミックな経済を育むブロックチェーンです。
 
-ApeChain is more than just a blockchain; it’s the platform that brings the BAYC community together, offering developers and users the ability to build and interact with applications that leverage BAYC’s intellectual property. One great example of this is the "Made By Apes" initiative—a collection of builders using BAYC’s IP across various brands, products, and services, all made possible through ApeChain’s innovative infrastructure.
+ApeChainは単なるブロックチェーンではなく、BAYCコミュニティをひとつにまとめるプラットフォームであり、開発者やユーザーがBAYCの知的財産を活用したアプリケーションを構築し、やり取りすることを可能にします。その素晴らしい例のひとつが「Made By Apes」イニシアティブです。これは、ApeChainの革新的なインフラを通じて、BAYCの知的財産を利用したさまざまなブランド、製品、サービスを作成しているビルダーたちのコレクションです。
 
-In this section of the course, we’ll dive into the world of Non-Fungible Tokens (NFTs). We’ll explore what makes NFTs so fascinating, why they’ve become a cultural phenomenon, and, most excitingly, how you can create and deploy your very own NFTs on ApeChain. Ready to unlock the secrets of the NFT universe? Let’s get started!
+このセクションでは、NFT（ノン・ファンジブル・トークン）の世界に飛び込みます。NFTがなぜこれほど魅力的なのか、なぜ文化的現象となったのか、そして最もエキサイティングなことに、ApeChain上で自分自身のNFTをどのように作成し、展開するかについて探っていきます。NFTの宇宙の秘密を解き明かす準備はできましたか？さあ、始めましょう！

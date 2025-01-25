@@ -1,24 +1,23 @@
-# Obtaining some $ApeCoin on ApeChain
+# ApeChainで$ApeCoinを取得する
 
-Throughout the course, we'll explore and learn the many tools and deploying a NFT on Apechain. In order to so, we;ll need some $APE on Testnet.
+コースを通じて、ApeChain上でNFTを展開するためのさまざまなツールを学んでいきます。そのためには、Testnetで$APEが必要です。
 
-1. **Access the Curtis Testnet Hub Page**:  
-Visit the [Curtis Testnet Hub Page](https://curtis.hub.caldera.xyz/) to begin your journey.
+1. **Curtis Testnet Hubページにアクセス**:  
+[こちらのCurtis Testnet Hubページ](https://curtis.hub.caldera.xyz/)にアクセスして、学習を始めましょう。
 
-
-2. **Navigate to the Faucet Tab**:  
-Click on the Faucet tab in the navigation menu to proceed to the token request section.
+2. **Faucetタブに移動**:  
+ナビゲーションメニューからFaucetタブをクリックして、トークンリクエストセクションに進みます。
 
 ![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/faucet_tab.png)
 
-3. **Request Testnet $APE**:  
-Enter your wallet address in the input field and click the Request button to claim testnet $APE tokens.
+3. **Testnet $APEをリクエスト**:  
+ウォレットアドレスを入力フィールドに入力し、RequestボタンをクリックしてTestnet $APEトークンを請求します。
 
-4. **Success Confirmation**:  
-Once the transaction is completed, a confirmation message will appear, and your testnet $APE will be added to your wallet.
+4. **成功の確認**:  
+取引が完了すると、確認メッセージが表示され、Testnet $APEがウォレットに追加されます。
 
 ![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/faucet_success.png)
 
-### 🚀 Quest: Claim $APE on Curtis
+### 🚀 クエスト: Curtisで$APEを取得
 
-To progress in earning your POAP, ensure you complete this quest by obtaining testnet $APE and submitting the transaction details to the Proof of Learn platform.
+POAPを獲得するためには、Testnet $APEを取得し、その取引詳細をProof of Learnプラットフォームに提出して、このクエストを完了してください。

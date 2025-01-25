@@ -1,36 +1,35 @@
-# Connecting to ApeChain
+# ApeChainへの接続
 
-Let start by connect ApeChain's **Curtis Testnet** or **Mainnet**. The best way is through it's offical hub platform.
+まず、ApeChainの**Curtis Testnet**または**Mainnet**に接続しましょう。最良の方法は公式のハブプラットフォームを使用することです。
 
-## **Connecting to ApeChain Mainnet**
-1. **Using the Hub Page**
-   - Visit the [ApeChain Mainnet Hub Page](https://apechain.hub.caldera.xyz/).
-   - Click the **Add to Metamask** button to switch to the ApeChain Mainnet.
+## **ApeChain Mainnetへの接続**
+1. **Hubページを使用**
+   - [ApeChain Mainnet Hubページ](https://apechain.hub.caldera.xyz/)にアクセスします。
+   - **Add to Metamask**ボタンをクリックして、ApeChain Mainnetに切り替えます。
 
 ![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/network_page.png)
 
-2. **Manually Add the Mainnet**
-   - Open **MetaMask** and navigate to **Settings > Networks > Add Network**.
-   - Enter the following details:
-     - **Network Name**: ApeChain Mainnet
+2. **Mainnetを手動で追加**
+   - **MetaMask**を開き、**設定 > ネットワーク > ネットワークを追加**に進みます。
+   - 以下の詳細を入力します：
+     - **ネットワーク名**: ApeChain Mainnet
      - **RPC URL**: https://rpc.apechain.com/http
-     - **Chain ID**: 33139
-     - **Currency Symbol**: APE
-     - **Block Explorer URL**: [ApeChain Mainnet Explorer](https://apescan.io/)
+     - **チェーンID**: 33139
+     - **通貨シンボル**: APE
+     - **ブロックエクスプローラーURL**: [ApeChain Mainnet Explorer](https://apescan.io/)
 
-*Similarly*
-## **Connecting to ApeChain Testnet**
-1. **Using the Hub Page**:
-   - Visit the [Curtis Testnet Hub Page](https://curtis.hub.caldera.xyz/).
-   - Click the **Add to Metamask** button to switch to the ApeChain Testnet.
+*同様に*
+## **ApeChain Testnetへの接続**
+1. **Hubページを使用**
+   - [Curtis Testnet Hubページ](https://curtis.hub.caldera.xyz/)にアクセスします。
+   - **Add to Metamask**ボタンをクリックして、ApeChain Testnetに切り替えます。
 
-### **ApeChain Network Information**
+### **ApeChainネットワーク情報**
 
-| **Detail**          | **Curtis Testnet**                 | **ApeChain Mainnet**             |
-|----------------------|------------------------------------|-----------------------------------|
-| **Network Name**     | Curtis Testnet                    | ApeChain Mainnet                 |
-| **RPC URL**          | https://curtis.rpc.caldera.xyz/http | https://rpc.apechain.com/http    |
-| **Chain ID**         | 33111                             | 33139                            |
-| **Currency Symbol**  | APE                               | APE                              |
-| **Block Explorer URL** | [Curtis Testnet Explorer](https://curtis.apescan.io/) | [ApeChain Mainnet Explorer](https://apescan.io/) |
-
+| **詳細**             | **Curtis Testnet**               | **ApeChain Mainnet**            |
+|----------------------|----------------------------------|---------------------------------|
+| **ネットワーク名**    | Curtis Testnet                   | ApeChain Mainnet                |
+| **RPC URL**           | https://curtis.rpc.caldera.xyz/http | https://rpc.apechain.com/http   |
+| **チェーンID**        | 33111                            | 33139                           |
+| **通貨シンボル**      | APE                              | APE                             |
+| **ブロックエクスプローラーURL** | [Curtis Testnet Explorer](https://curtis.apescan.io/) | [ApeChain Mainnet Explorer](https://apescan.io/) |

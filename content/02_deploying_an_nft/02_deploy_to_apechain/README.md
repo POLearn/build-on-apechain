@@ -1,20 +1,20 @@
-# 🚀 Quest: Deploy Your First NFT Contract  
+### 🚀 クエスト: 最初のNFTコントラクトをデプロイする
 
-Now we understood more about the NFT. Let begin this quest and deploy your very own NFT contract on ApeChain. But before deploying, let’s personalize the NFT contract to make it yours.  
+今、NFTについてもっと理解しました。それでは、このクエストを始めて、あなた自身のNFTコントラクトをApeChainにデプロイしましょう。デプロイする前に、NFTコントラクトをカスタマイズして、あなたのものにしましょう。
 
-1. Change the contract **name** to `PolApeNFT`.  
-2. Update the **symbol** to `PAN`.  
+1. コントラクトの**名前**を`PolApeNFT`に変更します。
+2. **シンボル**を`PAN`に更新します。
 
-In your IDE, ensure the compiler is set to **v0.8.26**. Using the correct version ensures compatibility with your contract code.  
+IDEで、コンパイラが**v0.8.26**に設定されていることを確認してください。正しいバージョンを使用することで、コントラクトコードとの互換性が確保されます。
 
-![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/nft_version.png)  
+![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/nft_version.png)
 
-Once's that is compiled. From the list of contracts, select **`ApeNFT.sol`** for deployment.  
+コンパイルが完了したら、コントラクトのリストから**`ApeNFT.sol`**を選択してデプロイします。
 
-![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/nft_select.png)  
+![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/nft_select.png)
 
-You can deploy the contract. Make sure to add an initialOwner. This can be anyone, but typically it'll be the deployer address. once that done, click on deploy.
+コントラクトをデプロイできます。初期の所有者（`initialOwner`）を追加してください。これは誰でも構いませんが、通常はデプロイするアドレスです。それが完了したら、デプロイボタンをクリックしてください。
 
-Complete the quest by submitting your transaction details to **Proof of Learn (PoL)**. This is your proof that you’ve successfully deployed the contract!  
+クエストを完了するために、トランザクションの詳細を**Proof of Learn (PoL)**に提出してください。これが、コントラクトを成功裏にデプロイした証拠となります！
 
-Congratulations! 🎉 You’ve deployed your first NFT contract on ApeChain. In the next section, we’ll going to mint your an NFT on ApeChain.
+おめでとうございます！🎉 あなたは最初のNFTコントラクトをApeChainにデプロイしました。次のセクションでは、ApeChainでNFTをミントする方法を学びます。

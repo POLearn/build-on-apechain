@@ -1,16 +1,15 @@
-Calling all aspiring Web3 creators! Dive into the exciting world of ApeChain, a high-performance blockchain built for the future. This course equips you with the essential skills to **Ape-proach Web3** like a pro. 
+Web3のクリエイター志望の皆さん！未来のために作られた高性能なブロックチェーンであるApeChainのエキサイティングな世界に飛び込んでみましょう。このコースでは、**プロのようにWeb3に取り組む**ために必要なスキルを習得できます。
 
-### What you'll learn:
+### 学べること：
 
-* **Master the Fundamentals:** Gain a solid understanding of ApeChain, its unique features, and its place in the Web3 ecosystem.
-* **NFT Development Deep Dive:** Explore the world of Non-Fungible Tokens (NFTs) and learn how to craft your own unique digital assets.
-* **ApeChain Deployment Mastery:**  Deploy your creations seamlessly onto the ApeChain network, ready to be shared and traded.
+* **基本をマスターする**: ApeChain、そのユニークな特徴、およびWeb3エコシステムにおける位置についてしっかりと理解します。
+* **NFT開発の深堀り**: 非代替トークン（NFT）の世界を探求し、独自のデジタル資産を作成する方法を学びます。
+* **ApeChainデプロイメントの習得**: ApeChainネットワークにシームレスに作成したものをデプロイし、共有および取引できるようにします。
 
-### By the end of this course, you'll be:
+### このコースを終える頃には、あなたは：
 
-* Confidently navigating the ApeChain landscape.
-* Equipped to build and deploy your own NFTs on ApeChain.
-* Ready to unleash your creativity and contribute to the thriving ApeChain ecosystem.
+* ApeChainの世界を自信を持ってナビゲートできるようになります。
+* ApeChainで自分のNFTを作成し、デプロイする準備が整います。
+* 自分の創造力を発揮し、ApeChainエコシステムに貢献する準備が整います。
 
-**Join us and become an ApeChain NFT developer today!**
-
+**今すぐ参加して、ApeChainのNFT開発者になりましょう！**
