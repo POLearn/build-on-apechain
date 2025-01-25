@@ -1,37 +1,37 @@
 # ApeChain Bridge
 
-## What is a Bridge?
+## 브리지가 무엇인가요?
 
-A crypto bridge is a tool that enables the transfer of assets across different blockchain networks. It serves as a connection point, allowing users to move liquidity seamlessly between chains. With a user-friendly interface, crypto bridges make it easy for individuals to interact and transfer assets between platforms. Features often include customizable branding, clear navigation, and the ability to support transfers between various blockchains, enhancing the overall blockchain ecosystem.
+암호화폐 브리지는 서로 다른 블록체인 네트워크 간에 자산을 전송할 수 있도록 해주는 도구입니다. 이는 연결 지점 역할을 하여 사용자가 체인 간에 유동성을 원활하게 이동할 수 있도록 합니다. 사용자 친화적인 인터페이스를 제공하는 암호화폐 브리지는 개인들이 플랫폼 간에 자산을 쉽게 이동하고 상호작용할 수 있도록 합니다. 기능으로는 맞춤형 브랜딩, 명확한 내비게이션, 다양한 블록체인 간의 전송 지원 등이 포함되어 전체 블록체인 생태계를 강화합니다.
 
 ## ApeChain Bridge
 
-The ApeChain Bridge is a feature within the ApeChain ecosystem that allows users to bridge, swap, and on-ramp tokens. It is designed to facilitate the movement of assets between different blockchain networks, making it easier for users to interact with the ApeChain ecosystem. For more details, you can visit the [ApeChain Portal](https://curtis.bridge.caldera.xyz/)
+ApeChain Bridge는 ApeChain 생태계 내에서 사용자가 자산을 브리지하고, 교환하며, 온램프할 수 있도록 돕는 기능입니다. 이는 서로 다른 블록체인 네트워크 간 자산 이동을 용이하게 하여 사용자가 ApeChain 생태계와 상호작용할 수 있도록 설계되었습니다. 자세한 내용은 [ApeChain Portal](https://curtis.bridge.caldera.xyz/)에서 확인할 수 있습니다.
 
 ![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/bridge.png)
 
-*Note this is the testnet one*
+*참고: 이는 테스트넷 버전입니다*
 
-### Quest: Bridge to Arbitrum
+### 퀘스트: Arbitrum으로 브리지
 
-1. **Access the ApeChain Bridge**  
-Visit the **ApeChain Bridge** interface via the Curtis Testnet or ApeChain Mainnet based on your requirements. Example: [Curtis Testnet Hub](https://curtis.hub.caldera.xyz/).  
+1. **ApeChain Bridge 접근**  
+필요에 따라 **ApeChain Bridge** 인터페이스에 접근하세요. 예시: [Curtis Testnet Hub](https://curtis.hub.caldera.xyz/).
 
-2. **Connect Your Wallet**  
-Click the **wallet connect button** in the top-right corner and connect your wallet (e.g., MetaMask). Make sure it is connected to the correct network, such as the Curtis Testnet or ApeChain Mainnet.  
+2. **지갑 연결**  
+우측 상단에 있는 **지갑 연결 버튼**을 클릭하고 지갑을 연결하세요 (예: MetaMask). 올바른 네트워크에 연결되어 있는지 확인하세요, 예를 들어 Curtis Testnet 또는 ApeChain Mainnet.
 
-3. **Select Source and Destination Chains**  
-In the bridge section, choose **Curtis (Testnet)** or another chain like ApeChain Mainnet as the source chain, and set the destination chain (e.g., **Arbitrum Sepolia**).  
+3. **소스 체인과 목적지 체인 선택**  
+브리지 섹션에서 **Curtis (Testnet)** 또는 ApeChain Mainnet과 같은 다른 체인을 소스 체인으로 선택하고, 목적지 체인(예: **Arbitrum Sepolia**)을 설정하세요.
 
-4. **Choose Asset and Swap**  
-Pick the token to bridge, such as `$APE`, and 0.5 APEcoin as the **amount** of tokens to transfer. Then click **Swap** to start the bridging process and confirm the transaction with the provided wallet.
+4. **자산 선택 및 교환**  
+브리지할 토큰을 선택하세요, 예를 들어 `$APE`와 0.5 APEcoin을 **이체할 토큰 수**로 설정합니다. 그런 다음 **Swap**을 클릭하여 브리지 프로세스를 시작하고 제공된 지갑으로 거래를 확인하세요.
 
 ![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/bridge_swap.png)
 
-### 🚀 Quest: Bridge 0.5 $APE to Arbitrum Sepolia
+### 🚀 퀘스트: 0.5 $APE를 Arbitrum Sepolia로 브리지
 
-The bridging process may take a few minutes to complete. Once it’s done, you’ll have successfully bridged 0.5 $APE across chains! You can review your transaction details in the History tab, where all completed transactions are recorded.
+브리지 과정이 완료되는 데 몇 분 정도 걸릴 수 있습니다. 완료되면 0.5 $APE를 체인 간에 성공적으로 브리지한 것입니다! 모든 완료된 거래는 History 탭에서 거래 내역을 확인할 수 있습니다.
 
 ![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/bridge_history.png)
 
-Use the transaction information from the History tab to submit your quest on POL and be on your way to a POAP!
+History 탭의 거래 정보를 사용하여 POL에서 퀘스트를 제출하고 POAP을 받을 준비를 하세요!

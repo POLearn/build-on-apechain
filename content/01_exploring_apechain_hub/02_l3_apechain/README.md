@@ -1,15 +1,15 @@
 # Layer 3
 
-You might of heard of Layer 2 (L2) solutions which have been instrumental in addressing challenges of L1 chains like Ethereum, offering faster transactions and reduced costs compared to the base Layer 1 (L1) chains like Ethereum. But as ecosystems evolve, specialized needs arise, prompting the emergence of Layer 3 (L3) solutions.
+여러분은 Ethereum과 같은 Layer 1 (L1) 체인의 문제를 해결하는 데 중요한 역할을 해온 Layer 2 (L2) 솔루션에 대해 들어본 적이 있을 것입니다. L2 솔루션은 기본 Layer 1 체인보다 더 빠른 거래와 비용 절감을 제공합니다. 하지만 생태계가 발전함에 따라, 특정 요구 사항을 충족하기 위한 Layer 3 (L3) 솔루션이 등장했습니다.
 
-**Layer 3 blockchain** build on the foundation of L2 by introducing additional scalability and tailored functionalities. Designed for specific use cases, L3 solutions provide:
+**Layer 3 블록체인**은 L2의 기반 위에 추가적인 확장성과 맞춤형 기능을 도입하여 특정 용도에 맞는 솔루션을 제공합니다. L3 솔루션은 다음과 같은 특징을 제공합니다:
 
-- Ultra-High Scalability: Handling a greater volume of transactions at lower costs.
-- Customization: Features optimized for unique ecosystems like gaming, DeFi, or metaverse projects.
-- Seamless Interoperability: Enhanced communication between blockchain networks.
+- **초고속 확장성**: 더 많은 거래를 처리하면서 비용을 절감합니다.
+- **맞춤화**: 게임, DeFi 또는 메타버스 프로젝트와 같은 독특한 생태계를 위한 기능 최적화.
+- **원활한 상호운용성**: 블록체인 네트워크 간의 향상된 통신.
 
-## ApeChain: An Optimistic L3 
+## ApeChain: 낙관적인 L3
 
-ApeChain, as an Optimistic L3 built on Arbitrum Orbit and uses rollup technology to assume transactions are valid until proven otherwise, allowing for fast transaction confirmations and efficient scaling. This makes it ideal for applications requiring high throughput and low transaction costs. For more details, you can check out the [ApeChain Architecture](https://docs.apechain.com/architecture). This innovative approach involves bundling multiple transactions into a single batch, which is processed and verified on the main Ethereum chain, ensuring security while offloading computational work to the L3.
+ApeChain은 Arbitrum Orbit 위에 구축된 낙관적인 L3로, 롤업 기술을 사용하여 거래가 유효하다고 가정하고 유효성 검증이 필요한 경우에만 증명하는 방식으로 빠른 거래 확인과 효율적인 확장을 가능하게 합니다. 이는 높은 처리량과 낮은 거래 비용을 요구하는 애플리케이션에 이상적입니다. 더 자세한 내용은 [ApeChain 아키텍처](https://docs.apechain.com/architecture)에서 확인할 수 있습니다. 이 혁신적인 접근법은 여러 거래를 하나의 배치로 묶어 처리하고, 이를 메인 Ethereum 체인에서 검증하여 보안을 유지하면서 L3로 계산 작업을 분산시킵니다.
 
-What sets ApeChain apart is its integration with the Arbitrum stack, allowing it to benefit from Arbitrum's security and infrastructure while maintaining independence. This setup not only enhances the utility of ApeCoin as its native gas token but also fosters a dynamic economy within the ApeCoin ecosystem. For developers this mean leveraging the efficiencies of multiple programming languages with Arbitrum's Stylus, a feature of ApeChain's architecture.
+ApeChain을 다른 L3 솔루션과 구별 짓는 점은 바로 Arbitrum 스택과의 통합입니다. 이 통합을 통해 ApeChain은 Arbitrum의 보안 및 인프라를 활용하면서도 독립성을 유지할 수 있습니다. 이 설정은 $APE를 네이티브 가스 토큰으로 사용하는 ApeCoin 생태계 내에서 동적인 경제를 촉진하는 한편, 개발자들에게 Arbitrum의 Stylus를 활용한 다양한 프로그래밍 언어의 효율성을 제공하는 아키텍처를 의미합니다.
