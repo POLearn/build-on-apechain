@@ -1,36 +1,35 @@
-# Connecting to ApeChain
+# 连接到 ApeChain
 
-Let start by connect ApeChain's **Curtis Testnet** or **Mainnet**. The best way is through it's offical hub platform.
+开始连接 ApeChain 的 **Curtis 测试网** 或 **主网**。最佳方式是通过其官方 Hub 平台完成。
 
-## **Connecting to ApeChain Mainnet**
-1. **Using the Hub Page**
-   - Visit the [ApeChain Mainnet Hub Page](https://apechain.hub.caldera.xyz/).
-   - Click the **Add to Metamask** button to switch to the ApeChain Mainnet.
+## **连接 ApeChain 主网**
+1. **通过 Hub 页面**
+   - 访问 [ApeChain 主网 Hub 页面](https://apechain.hub.caldera.xyz/)。
+   - 点击 **Add to Metamask** 按钮，切换到 ApeChain 主网。
 
 ![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/network_page.png)
 
-2. **Manually Add the Mainnet**
-   - Open **MetaMask** and navigate to **Settings > Networks > Add Network**.
-   - Enter the following details:
-     - **Network Name**: ApeChain Mainnet
+2. **手动添加主网**
+   - 打开 **MetaMask**，前往 **设置 > 网络 > 添加网络**。
+   - 输入以下信息：
+     - **网络名称**: ApeChain 主网
      - **RPC URL**: https://rpc.apechain.com/http
      - **Chain ID**: 33139
-     - **Currency Symbol**: APE
-     - **Block Explorer URL**: [ApeChain Mainnet Explorer](https://apescan.io/)
+     - **货币符号**: APE
+     - **区块浏览器 URL**: [ApeChain 主网浏览器](https://apescan.io/)
 
-*Similarly*
-## **Connecting to ApeChain Testnet**
-1. **Using the Hub Page**:
-   - Visit the [Curtis Testnet Hub Page](https://curtis.hub.caldera.xyz/).
-   - Click the **Add to Metamask** button to switch to the ApeChain Testnet.
+*类似地*
+## **连接 ApeChain 测试网**
+1. **通过 Hub 页面**:
+   - 访问 [Curtis 测试网 Hub 页面](https://curtis.hub.caldera.xyz/)。
+   - 点击 **Add to Metamask** 按钮，切换到 ApeChain 测试网。
 
-### **ApeChain Network Information**
+### **ApeChain 网络信息**
 
-| **Detail**          | **Curtis Testnet**                 | **ApeChain Mainnet**             |
+| **信息**             | **Curtis 测试网**                 | **ApeChain 主网**                |
 |----------------------|------------------------------------|-----------------------------------|
-| **Network Name**     | Curtis Testnet                    | ApeChain Mainnet                 |
+| **网络名称**          | Curtis 测试网                     | ApeChain 主网                    |
 | **RPC URL**          | https://curtis.rpc.caldera.xyz/http | https://rpc.apechain.com/http    |
 | **Chain ID**         | 33111                             | 33139                            |
-| **Currency Symbol**  | APE                               | APE                              |
-| **Block Explorer URL** | [Curtis Testnet Explorer](https://curtis.apescan.io/) | [ApeChain Mainnet Explorer](https://apescan.io/) |
-
+| **货币符号**          | APE                               | APE                              |
+| **区块浏览器 URL**    | [Curtis 测试网浏览器](https://curtis.apescan.io/) | [ApeChain 主网浏览器](https://apescan.io/) |

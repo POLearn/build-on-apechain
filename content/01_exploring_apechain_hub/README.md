@@ -1,16 +1,15 @@
-Calling all aspiring Web3 creators! Dive into the exciting world of ApeChain, a high-performance blockchain built for the future. This course equips you with the essential skills to **Ape-proach Web3** like a pro. 
+召集所有有志于Web3的创作者！跳入激动人心的ApeChain世界，这是一条为未来打造的高性能区块链。本课程为你提供了必备的技能，让你能像专业人士一样**Ape-approach Web3**。
 
-### What you'll learn:
+### 你将学到的内容：
 
-* **Master the Fundamentals:** Gain a solid understanding of ApeChain, its unique features, and its place in the Web3 ecosystem.
-* **NFT Development Deep Dive:** Explore the world of Non-Fungible Tokens (NFTs) and learn how to craft your own unique digital assets.
-* **ApeChain Deployment Mastery:**  Deploy your creations seamlessly onto the ApeChain network, ready to be shared and traded.
+* **掌握基础知识：** 深入理解ApeChain的独特特性以及它在Web3生态系统中的位置。
+* **NFT开发深度探索：** 探索非同质化代币（NFT）的世界，学习如何打造你自己的独特数字资产。
+* **ApeChain部署精通：** 将你的创作无缝部署到ApeChain网络，准备分享和交易。
 
-### By the end of this course, you'll be:
+### 完成本课程后，你将能够：
 
-* Confidently navigating the ApeChain landscape.
-* Equipped to build and deploy your own NFTs on ApeChain.
-* Ready to unleash your creativity and contribute to the thriving ApeChain ecosystem.
+* 自信地在ApeChain的生态中导航。
+* 能够在ApeChain上构建并部署你自己的NFT。
+* 准备好释放你的创造力，贡献于ApeChain生态系统的蓬勃发展。
 
-**Join us and become an ApeChain NFT developer today!**
-
+**加入我们，成为ApeChain NFT开发者吧！**

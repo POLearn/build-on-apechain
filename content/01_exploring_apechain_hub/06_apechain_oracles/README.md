@@ -1,39 +1,39 @@
-# What is an Oracle
+# 什么是预言机 (Oracle)
 
-Before exploring Price Oracles for APEChain, let’s quickly cover what an oracle is. In the world of smart contracts, an oracle is a service that provides real-world data to blockchains. Since blockchains can't access external information directly, oracles act as bridges, bringing off-chain data—like prices, weather, or sports scores—onto the blockchain.
+在深入了解适用于 APEChain 的价格预言机之前，我们先快速了解一下什么是预言机。在智能合约的世界里，预言机是一种为区块链提供现实世界数据的服务。由于区块链无法直接访问外部信息，预言机就像桥梁一样，将链下数据（如价格、天气或体育比赛比分）带到区块链上。
 
-For APEChain, the oracle service is provided by Pyth Network, which delivers real-time, high-quality market data. Pyth aggregates data from trusted sources like exchanges and market makers, ensuring accuracy and minimizing manipulation risks, so APEChain can rely on up-to-date, reliable information for its smart contracts
+对于 APEChain，预言机服务由 Pyth Network 提供。Pyth 提供实时、高质量的市场数据，通过汇总来自交易所和做市商等可信来源的数据，确保数据的准确性并最大程度地减少操纵风险，从而为 APEChain 的智能合约提供可靠的最新信息。
 
-## ApeChain Oracle
+## ApeChain 预言机
 
-We'll start by loading a contract onto the ApeChain mainnet Oracle. Specifically, we'll use the contract at address `0x2880aB155794e7179c9eE2e38200202908C17B43`, which is part of the ApeChain Oracle setup.
+我们将从将一个合约加载到 ApeChain 主网预言机开始。具体来说，我们将使用地址为 `0x2880aB155794e7179c9eE2e38200202908C17B43` 的合约，这是 ApeChain 预言机设置的一部分。
 
-You can also check out the [full documentation here](https://docs.apechain.com/oracles) for a deeper understanding of how oracles work and how you can integrate them into your projects.
+您还可以查看 [完整文档](https://docs.apechain.com/oracles)，以更深入地了解预言机的工作原理以及如何将其集成到您的项目中。
 
-Let's load this in your desired IDE.
+现在，我们将在您选择的 IDE 中加载它。
 
 ![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/oracle_load.png)
 
-### `getPriceNoOlderThan`
+### `getPriceNoOlderThan` 方法
 
-Access to real-time price data is crucial when building decentralized applications (dApps). The `getPriceNoOlderThan` method allows you to retrieve the most recent price object for a specific price feed ID, ensuring that the price data is up-to-date within a time frame you specify.
+在构建去中心化应用程序 (dApp) 时，实时价格数据的访问至关重要。`getPriceNoOlderThan` 方法允许您获取特定价格源 ID 的最新价格对象，确保价格数据在您指定的时间范围内是最新的。
 
 ![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/oracle_method.png)
 
-When you call the `getPriceNoOlderThan` method, you’ll provide two key arguments: the **price feed ID** and an **age** value. The **ID** specifies which price feed you want to access, while the **age** defines how recent the data can be. This is useful when you need a price that was updated at a specific point in time or for historical price data.
+调用 `getPriceNoOlderThan` 方法时，您需要提供两个关键参数：**价格源 ID** 和 **时间范围值**。**ID** 指定您想访问的价格源，而 **时间范围值** 定义了数据的更新时效。这在您需要某个特定时间点更新的价格或历史价格数据时非常有用。
 
-You can find the price feed IDs on the [Pyth Network Price Feed page](https://www.pyth.network/developers/price-feed-ids). For example, one of the price feed IDs available is for **ApeCoin/USD**, which is the ID we will use for our example.
+您可以在 [Pyth Network Price Feed 页面](https://www.pyth.network/developers/price-feed-ids) 上找到价格源 ID。例如，**ApeCoin/USD** 的价格源 ID 是我们将在示例中使用的一个。
 
 ![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/pyth_id.png)
 
-The `getPriceNoOlderThan` method returns a **price object** that contains the following key fields:
+`getPriceNoOlderThan` 方法会返回一个 **价格对象**，其中包含以下关键字段：
 
-- **price**: The most recent price of the asset from the price feed.
-- **conf**: The confidence level of the price, indicating how reliable the price feed is.
-- **expo**: The exponent used for scaling the price.
-- **publishTime**: The timestamp indicating when the price feed was last updated.
+- **price**：价格源提供的资产最新价格。
+- **conf**：价格的置信度，指示价格源的可靠性。
+- **expo**：用于缩放价格的指数。
+- **publishTime**：价格源上次更新时的时间戳。
 
-Here’s an example of a price object you might receive:
+以下是您可能收到的价格对象示例：
 
 ```json
 {
@@ -44,15 +44,15 @@ Here’s an example of a price object you might receive:
 }
 ```
 
-### 🚀 Quest: Calling
+### 🚀 任务：调用
 
-For this final section of the POAP, let's call the `getPriceNoOlderThan` method to retrieve the price data for **Ape/USD** using the specified **Price Feed ID** and **timestamp**.
+在 POAP 的最后部分，让我们调用 `getPriceNoOlderThan` 方法，以通过指定的 **价格源 ID** 和 **时间戳** 获取 **Ape/USD** 的价格数据。
 
-Here’s what we’ll use:
+我们将使用以下信息：
 
-- **Price Feed ID**: `0x15add95022ae13563a11992e727c91bdb6b55bc183d9d747436c80a483d8c864` (for Ape/USD)
-- **Timestamp**: `1736651044`
+- **价格源 ID**：`0x15add95022ae13563a11992e727c91bdb6b55bc183d9d747436c80a483d8c864` （对应 Ape/USD）
+- **时间戳**：`1736651044`
 
-Now, let's see how to call this method and get the result! We can see a value of `99675229`, which at the time was **0.99 USD**. For this submission, let's submit the entire JSON.
+现在，让我们看看如何调用此方法并获取结果！我们可以看到一个值为 `99675229`，当时相当于 **0.99 美元**。提交时，请提交完整的 JSON。
 
 ![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/oracle_result.png)

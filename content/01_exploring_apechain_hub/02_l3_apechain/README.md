@@ -1,15 +1,15 @@
-# Layer 3
+# 第3层（Layer 3）
 
-You might of heard of Layer 2 (L2) solutions which have been instrumental in addressing challenges of L1 chains like Ethereum, offering faster transactions and reduced costs compared to the base Layer 1 (L1) chains like Ethereum. But as ecosystems evolve, specialized needs arise, prompting the emergence of Layer 3 (L3) solutions.
+你可能听说过第2层（L2）解决方案，它们在解决以太坊等L1链的挑战方面发挥了重要作用，提供比基础的L1链（如以太坊）更快的交易速度和更低的费用。但随着生态系统的发展，专门的需求不断出现，促使第3层（L3）解决方案的出现。
 
-**Layer 3 blockchain** build on the foundation of L2 by introducing additional scalability and tailored functionalities. Designed for specific use cases, L3 solutions provide:
+**第3层区块链**在L2的基础上构建，提供额外的可扩展性和定制化功能。针对特定的用例，L3解决方案提供：
 
-- Ultra-High Scalability: Handling a greater volume of transactions at lower costs.
-- Customization: Features optimized for unique ecosystems like gaming, DeFi, or metaverse projects.
-- Seamless Interoperability: Enhanced communication between blockchain networks.
+- 超高可扩展性：以更低的成本处理更多的交易量。
+- 定制化：为特定生态系统，如游戏、去中心化金融（DeFi）或元宇宙项目，优化功能。
+- 无缝互操作性：增强区块链网络之间的通信。
 
-## ApeChain: An Optimistic L3 
+## ApeChain：一个乐观的第3层（L3）
 
-ApeChain, as an Optimistic L3 built on Arbitrum Orbit and uses rollup technology to assume transactions are valid until proven otherwise, allowing for fast transaction confirmations and efficient scaling. This makes it ideal for applications requiring high throughput and low transaction costs. For more details, you can check out the [ApeChain Architecture](https://docs.apechain.com/architecture). This innovative approach involves bundling multiple transactions into a single batch, which is processed and verified on the main Ethereum chain, ensuring security while offloading computational work to the L3.
+ApeChain作为一个基于Arbitrum Orbit构建的乐观L3，使用Rollup技术假设交易在没有证据证明其无效之前是有效的，从而实现快速的交易确认和高效的扩展。这使得它非常适合需要高吞吐量和低交易成本的应用程序。欲了解更多细节，请查看[ApeChain架构](https://docs.apechain.com/architecture)。这种创新方法将多个交易打包成一个批次进行处理和验证，确保安全性，同时将计算工作卸载到第3层。
 
-What sets ApeChain apart is its integration with the Arbitrum stack, allowing it to benefit from Arbitrum's security and infrastructure while maintaining independence. This setup not only enhances the utility of ApeCoin as its native gas token but also fosters a dynamic economy within the ApeCoin ecosystem. For developers this mean leveraging the efficiencies of multiple programming languages with Arbitrum's Stylus, a feature of ApeChain's architecture.
+ApeChain的独特之处在于它与Arbitrum堆栈的集成，使其能够受益于Arbitrum的安全性和基础设施，同时保持独立性。这种设置不仅增强了ApeCoin作为其原生油气代币的效用，还在ApeCoin生态系统内促进了一个动态的经济体系。对于开发者来说，这意味着可以利用Arbitrum的Stylus——ApeChain架构的一项功能，来提高多种编程语言的效率。

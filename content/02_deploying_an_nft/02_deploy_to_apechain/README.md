@@ -1,20 +1,20 @@
-# 🚀 Quest: Deploy Your First NFT Contract  
+# 🚀 任务：部署你的第一个NFT合约
 
-Now we understood more about the NFT. Let begin this quest and deploy your very own NFT contract on ApeChain. But before deploying, let’s personalize the NFT contract to make it yours.  
+现在我们对NFT有了更多的了解。让我们开始这个任务，部署你自己的NFT合约到ApeChain。但在部署之前，先让我们个性化一下NFT合约，让它属于你。
 
-1. Change the contract **name** to `PolApeNFT`.  
-2. Update the **symbol** to `PAN`.  
+1. 将合约**名称**更改为 `PolApeNFT`。
+2. 更新**符号**为 `PAN`。
 
-In your IDE, ensure the compiler is set to **v0.8.26**. Using the correct version ensures compatibility with your contract code.  
+在你的IDE中，确保编译器设置为**v0.8.26**。使用正确的版本可以确保与合约代码的兼容性。
 
-![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/nft_version.png)  
+![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/nft_version.png)
 
-Once's that is compiled. From the list of contracts, select **`ApeNFT.sol`** for deployment.  
+一旦编译完成。从合约列表中，选择**`ApeNFT.sol`**进行部署。
 
-![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/nft_select.png)  
+![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/nft_select.png)
 
-You can deploy the contract. Make sure to add an initialOwner. This can be anyone, but typically it'll be the deployer address. once that done, click on deploy.
+现在你可以部署合约了。确保添加一个initialOwner。这可以是任何人，但通常会是部署者地址。完成后，点击部署。
 
-Complete the quest by submitting your transaction details to **Proof of Learn (PoL)**. This is your proof that you’ve successfully deployed the contract!  
+通过将你的交易详情提交到**Proof of Learn (PoL)**来完成任务。这是你成功部署合约的证明！
 
-Congratulations! 🎉 You’ve deployed your first NFT contract on ApeChain. In the next section, we’ll going to mint your an NFT on ApeChain.
+恭喜！🎉 你已经在ApeChain上部署了第一个NFT合约。在下一节中，我们将教你如何在ApeChain上铸造一个NFT。
