@@ -1,36 +1,37 @@
-# Connecting to ApeChain
+# Conectando a ApeChain
 
-Let start by connect ApeChain's **Curtis Testnet** or **Mainnet**. The best way is through it's offical hub platform.
+Empecemos conectándonos a **Curtis Testnet** o **Mainnet** de ApeChain. La mejor manera es a través de su plataforma oficial de hub.
 
-## **Connecting to ApeChain Mainnet**
-1. **Using the Hub Page**
-   - Visit the [ApeChain Mainnet Hub Page](https://apechain.hub.caldera.xyz/).
-   - Click the **Add to Metamask** button to switch to the ApeChain Mainnet.
+## **Conectando a ApeChain Mainnet**
+
+1. **Usando la Página del Hub**
+   - Visita la [ApeChain Mainnet Hub Page](https://apechain.hub.caldera.xyz/).
+   - Haz clic en el botón **Agregar a Metamask** para cambiar a la Mainnet de ApeChain.
 
 ![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/network_page.png)
 
-2. **Manually Add the Mainnet**
-   - Open **MetaMask** and navigate to **Settings > Networks > Add Network**.
-   - Enter the following details:
-     - **Network Name**: ApeChain Mainnet
-     - **RPC URL**: https://rpc.apechain.com/http
-     - **Chain ID**: 33139
-     - **Currency Symbol**: APE
-     - **Block Explorer URL**: [ApeChain Mainnet Explorer](https://apescan.io/)
+2. **Agregar la Mainnet Manualmente**
+   - Abre **MetaMask** y navega a **Configuración > Redes > Agregar Red**.
+   - Ingresa los siguientes detalles:
+     - **Nombre de la Red**: ApeChain Mainnet
+     - **URL de RPC**: https://rpc.apechain.com/http
+     - **ID de la Red**: 33139
+     - **Símbolo de la Moneda**: APE
+     - **URL del Explorador de Bloques**: [Explorador de la Mainnet de ApeChain](https://apescan.io/)
 
-*Similarly*
-## **Connecting to ApeChain Testnet**
-1. **Using the Hub Page**:
-   - Visit the [Curtis Testnet Hub Page](https://curtis.hub.caldera.xyz/).
-   - Click the **Add to Metamask** button to switch to the ApeChain Testnet.
+*De manera similar*  
+## **Conectando a ApeChain Testnet**
 
-### **ApeChain Network Information**
+1. **Usando la Página del Hub**:
+   - Visita la [Curtis Testnet Hub Page](https://curtis.hub.caldera.xyz/).
+   - Haz clic en el botón **Agregar a Metamask** para cambiar a la Testnet de ApeChain.
 
-| **Detail**          | **Curtis Testnet**                 | **ApeChain Mainnet**             |
-|----------------------|------------------------------------|-----------------------------------|
-| **Network Name**     | Curtis Testnet                    | ApeChain Mainnet                 |
-| **RPC URL**          | https://curtis.rpc.caldera.xyz/http | https://rpc.apechain.com/http    |
-| **Chain ID**         | 33111                             | 33139                            |
-| **Currency Symbol**  | APE                               | APE                              |
-| **Block Explorer URL** | [Curtis Testnet Explorer](https://curtis.apescan.io/) | [ApeChain Mainnet Explorer](https://apescan.io/) |
+### **Información de la Red ApeChain**
 
+| **Detalle**          | **Curtis Testnet**                | **ApeChain Mainnet**             |
+|----------------------|-----------------------------------|----------------------------------|
+| **Nombre de la Red** | Curtis Testnet                    | ApeChain Mainnet                 |
+| **URL de RPC**       | https://curtis.rpc.caldera.xyz/http| https://rpc.apechain.com/http    |
+| **ID de la Red**     | 33111                             | 33139                            |
+| **Símbolo de la Moneda** | APE                           | APE                              |
+| **URL del Explorador de Bloques** | [Explorador de Curtis Testnet](https://curtis.apescan.io/) | [Explorador de la Mainnet de ApeChain](https://apescan.io/) |

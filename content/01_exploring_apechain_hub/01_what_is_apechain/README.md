@@ -1,20 +1,23 @@
-# What is ApeChain?
+# ¿Qué es ApeChain?
 
-ApeChain is a cutting-edge Layer 3 (L3) blockchain built on Arbitrum Orbit by the ApeCoin DAO. Designed as the backbone of the ApeCoin ecosystem, it offers **high-speed transactions**, **low fees**, and **EVM compatibility**. Powered by $APE as its native gas token, ApeChain drives a vibrant economy with innovative features like **Native Yield**, allowing users to earn rewards even when their tokens are idle.  
+ApeChain es una blockchain de **Capa 3 (L3)** de vanguardia construida sobre Arbitrum Orbit por el ApeCoin DAO. Diseñada como la columna vertebral del ecosistema ApeCoin, ofrece **transacciones rápidas**, **bajas comisiones** y **compatibilidad con EVM**. Impulsada por $APE como su token nativo de gas, ApeChain impulsa una economía vibrante con características innovadoras como **Native Yield**, lo que permite a los usuarios ganar recompensas incluso cuando sus tokens están inactivos.  
 
-Whether you're a developer, gamer, or blockchain enthusiast, ApeChain simplifies blockchain interactions, enabling seamless access to decentralized finance, NFTs, and the metaverse.
+Ya seas desarrollador, jugador o entusiasta de blockchain, ApeChain simplifica las interacciones blockchain, permitiendo un acceso sin problemas a las finanzas descentralizadas, NFTs y el metaverso.
 
 ![](https://docs.apechain.com/_next/static/media/apechain-logo.3f86672d.svg)
 
-## What makes ApeChain unique?
+## ¿Qué hace única a ApeChain?
 
-ideal platform for developers, gamers, and investors alike. Its focus on discovery, competition, and distribution ensures that ApeChain is not only a tool for innovation but also a bridge to the future of decentralized ecosystem
+ApeChain es la plataforma ideal para desarrolladores, jugadores e inversores por igual. Su enfoque en el descubrimiento, la competencia y la distribución asegura que ApeChain no solo sea una herramienta para la innovación, sino también un puente hacia el futuro del ecosistema descentralizado.
 
-- Native Yield & Thriving Economy
-ApeChain’s **Native Yield**, powered by LayerZero, allows users to earn rewards in $APE, ETH, and stablecoins. With $APE as its gas token, ApeChain ensures a dynamic and cohesive ecosystem centered around the ApeCoin economy.  
-- Seamless User Experience
-Launching a user-friendly ecosystem website in **September 2024**, ApeChain simplifies onboarding with tools from Halliday, Decent, and Privy. Features like account abstraction and fiat onramps make blockchain accessible to all.  
-- Immersive Metaverse Integration
-ApeChain powers Yuga Labs’ **Otherside metaverse** through the Open Development Kit (ODK). Users can trade NFTs directly within the metaverse, creating engaging, immersive crypto experiences.  
-- Advanced Interoperability
-Built as a Layer 3, ApeChain bridges Ethereum (L1) and Arbitrum (L2), offering seamless blockchain communication while maintaining high efficiency and security.  
+- **Native Yield y Economía Próspera**  
+El **Native Yield** de ApeChain, impulsado por LayerZero, permite a los usuarios ganar recompensas en $APE, ETH y stablecoins. Con $APE como su token de gas, ApeChain asegura un ecosistema dinámico y cohesivo centrado en la economía de ApeCoin.
+
+- **Experiencia de Usuario Sin Fricciones**  
+ApeChain lanzará un sitio web de ecosistema fácil de usar en **septiembre de 2024**, simplificando la incorporación con herramientas de Halliday, Decent y Privy. Características como la abstracción de cuentas y los rampas de entrada fiat hacen que blockchain sea accesible para todos.
+
+- **Integración Inmersiva con el Metaverso**  
+ApeChain impulsa el **metaverso Otherside de Yuga Labs** a través del Open Development Kit (ODK). Los usuarios pueden comerciar NFTs directamente dentro del metaverso, creando experiencias criptográficas atractivas e inmersivas.
+
+- **Interoperabilidad Avanzada**  
+Construido como una Capa 3, ApeChain conecta Ethereum (L1) y Arbitrum (L2), ofreciendo comunicación sin interrupciones entre blockchains mientras mantiene alta eficiencia y seguridad.

@@ -1,9 +1,9 @@
-# BAYC NFT and NFT on ApeChain
+# BAYC NFT y NFT en ApeChain
 
 ![](https://www.todaynftnews.com/wp-content/uploads/2022/07/BAYC-The-story-of-the-most-successful-NFT-ever.jpg)
 
-You’ve probably heard of the Bored Ape Yacht Club (BAYC)—the iconic collection of NFTs that has taken the world by storm. But did you know that BAYC isn’t just about collecting cool digital art? It’s also the backbone of the ApeCoin ecosystem, with $APE serving as the native token for the community. And to supercharge this ecosystem, we have ApeChain, a blockchain that enhances the utility of ApeCoin and fosters a thriving, dynamic economy.
+Probablemente hayas oído hablar del Bored Ape Yacht Club (BAYC), la icónica colección de NFTs que ha conquistado el mundo. Pero, ¿sabías que BAYC no se trata solo de coleccionar arte digital genial? También es la columna vertebral del ecosistema ApeCoin, con $APE como el token nativo de la comunidad. Y para potenciar aún más este ecosistema, tenemos ApeChain, una blockchain que mejora la utilidad de ApeCoin y fomenta una economía dinámica y próspera.
 
-ApeChain is more than just a blockchain; it’s the platform that brings the BAYC community together, offering developers and users the ability to build and interact with applications that leverage BAYC’s intellectual property. One great example of this is the "Made By Apes" initiative—a collection of builders using BAYC’s IP across various brands, products, and services, all made possible through ApeChain’s innovative infrastructure.
+ApeChain es más que solo una blockchain; es la plataforma que une a la comunidad BAYC, ofreciendo a desarrolladores y usuarios la posibilidad de crear e interactuar con aplicaciones que aprovechan la propiedad intelectual de BAYC. Un gran ejemplo de esto es la iniciativa "Made By Apes", una colección de creadores que utilizan la propiedad intelectual de BAYC en diversas marcas, productos y servicios, todo posible gracias a la innovadora infraestructura de ApeChain.
 
-In this section of the course, we’ll dive into the world of Non-Fungible Tokens (NFTs). We’ll explore what makes NFTs so fascinating, why they’ve become a cultural phenomenon, and, most excitingly, how you can create and deploy your very own NFTs on ApeChain. Ready to unlock the secrets of the NFT universe? Let’s get started!
+En esta sección del curso, nos sumergiremos en el mundo de los Tokens No Fungibles (NFTs). Exploraremos qué hace que los NFTs sean tan fascinantes, por qué se han convertido en un fenómeno cultural y, lo más emocionante, cómo puedes crear y desplegar tus propios NFTs en ApeChain. ¿Listo para descubrir los secretos del universo NFT? ¡Comencemos!
