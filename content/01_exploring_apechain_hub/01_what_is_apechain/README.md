@@ -1,20 +1,23 @@
-# What is ApeChain?
+# Qu'est-ce qu'ApeChain ?
 
-ApeChain is a cutting-edge Layer 3 (L3) blockchain built on Arbitrum Orbit by the ApeCoin DAO. Designed as the backbone of the ApeCoin ecosystem, it offers **high-speed transactions**, **low fees**, and **EVM compatibility**. Powered by $APE as its native gas token, ApeChain drives a vibrant economy with innovative features like **Native Yield**, allowing users to earn rewards even when their tokens are idle.  
+ApeChain est une blockchain de pointe de couche 3 (L3) construite sur Arbitrum Orbit par l'ApeCoin DAO. Conçue comme l'épine dorsale de l'écosystème ApeCoin, elle offre des **transactions à haute vitesse**, des **frais faibles** et une **compatibilité EVM**. Alimentée par le $APE en tant que jeton natif de gaz, ApeChain stimule une économie dynamique avec des fonctionnalités innovantes comme **Native Yield**, permettant aux utilisateurs de gagner des récompenses même lorsque leurs tokens sont inactifs.  
 
-Whether you're a developer, gamer, or blockchain enthusiast, ApeChain simplifies blockchain interactions, enabling seamless access to decentralized finance, NFTs, and the metaverse.
+Que vous soyez développeur, joueur ou passionné de blockchain, ApeChain simplifie les interactions blockchain, permettant un accès transparent à la finance décentralisée, aux NFTs et au métavers.
 
 ![](https://docs.apechain.com/_next/static/media/apechain-logo.3f86672d.svg)
 
-## What makes ApeChain unique?
+## Qu'est-ce qui rend ApeChain unique ?
 
-ideal platform for developers, gamers, and investors alike. Its focus on discovery, competition, and distribution ensures that ApeChain is not only a tool for innovation but also a bridge to the future of decentralized ecosystem
+Une plateforme idéale pour les développeurs, les joueurs et les investisseurs. Son accent sur la découverte, la compétition et la distribution garantit qu'ApeChain n'est pas seulement un outil d'innovation, mais aussi un pont vers l'avenir des écosystèmes décentralisés.
 
-- Native Yield & Thriving Economy
-ApeChain’s **Native Yield**, powered by LayerZero, allows users to earn rewards in $APE, ETH, and stablecoins. With $APE as its gas token, ApeChain ensures a dynamic and cohesive ecosystem centered around the ApeCoin economy.  
-- Seamless User Experience
-Launching a user-friendly ecosystem website in **September 2024**, ApeChain simplifies onboarding with tools from Halliday, Decent, and Privy. Features like account abstraction and fiat onramps make blockchain accessible to all.  
-- Immersive Metaverse Integration
-ApeChain powers Yuga Labs’ **Otherside metaverse** through the Open Development Kit (ODK). Users can trade NFTs directly within the metaverse, creating engaging, immersive crypto experiences.  
-- Advanced Interoperability
-Built as a Layer 3, ApeChain bridges Ethereum (L1) and Arbitrum (L2), offering seamless blockchain communication while maintaining high efficiency and security.  
+- **Native Yield & Économie dynamique**  
+La **Native Yield** d'ApeChain, alimentée par LayerZero, permet aux utilisateurs de gagner des récompenses en $APE, ETH et stablecoins. Avec $APE comme jeton de gaz, ApeChain assure un écosystème dynamique et cohérent centré autour de l'économie ApeCoin.  
+
+- **Expérience utilisateur fluide**  
+Le lancement d'un site web écosystème convivial en **septembre 2024** simplifie l'intégration avec des outils de Halliday, Decent et Privy. Des fonctionnalités telles que l'abstraction de compte et les passerelles fiat rendent la blockchain accessible à tous.  
+
+- **Intégration immersive du Metavers**  
+ApeChain alimente le **metavers Otherside** de Yuga Labs grâce au Kit de développement ouvert (ODK). Les utilisateurs peuvent échanger des NFTs directement dans le métavers, créant des expériences crypto engageantes et immersives.  
+
+- **Interopérabilité avancée**  
+Construit en tant que couche 3, ApeChain fait le lien entre Ethereum (L1) et Arbitrum (L2), offrant une communication transparente entre blockchains tout en maintenant une grande efficacité et sécurité.

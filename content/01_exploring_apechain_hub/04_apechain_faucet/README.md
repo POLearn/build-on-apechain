@@ -1,24 +1,23 @@
-# Obtaining some $ApeCoin on ApeChain
+# Obtenir des $ApeCoin sur ApeChain
 
-Throughout the course, we'll explore and learn the many tools and deploying a NFT on Apechain. In order to so, we;ll need some $APE on Testnet.
+Tout au long du cours, nous explorerons et apprendrons à utiliser les nombreux outils pour déployer un NFT sur ApeChain. Pour ce faire, nous aurons besoin de quelques $APE sur le Testnet.
 
-1. **Access the Curtis Testnet Hub Page**:  
-Visit the [Curtis Testnet Hub Page](https://curtis.hub.caldera.xyz/) to begin your journey.
+1. **Accédez à la page Hub du Curtis Testnet** :  
+Rendez-vous sur la [page Hub du Curtis Testnet](https://curtis.hub.caldera.xyz/) pour commencer votre parcours.
 
-
-2. **Navigate to the Faucet Tab**:  
-Click on the Faucet tab in the navigation menu to proceed to the token request section.
+2. **Allez à l'onglet Faucet** :  
+Cliquez sur l'onglet Faucet dans le menu de navigation pour accéder à la section de demande de jetons.
 
 ![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/faucet_tab.png)
 
-3. **Request Testnet $APE**:  
-Enter your wallet address in the input field and click the Request button to claim testnet $APE tokens.
+3. **Demandez des $APE sur le Testnet** :  
+Entrez l'adresse de votre portefeuille dans le champ prévu à cet effet et cliquez sur le bouton Request pour réclamer des jetons $APE sur le testnet.
 
-4. **Success Confirmation**:  
-Once the transaction is completed, a confirmation message will appear, and your testnet $APE will be added to your wallet.
+4. **Confirmation de réussite** :  
+Une fois la transaction terminée, un message de confirmation apparaîtra et vos $APE sur le testnet seront ajoutés à votre portefeuille.
 
 ![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/faucet_success.png)
 
-### 🚀 Quest: Claim $APE on Curtis
+### 🚀 Quête : Réclamer des $APE sur Curtis
 
-To progress in earning your POAP, ensure you complete this quest by obtaining testnet $APE and submitting the transaction details to the Proof of Learn platform.
+Pour progresser dans l'obtention de votre POAP, assurez-vous de compléter cette quête en obtenant des $APE sur le testnet et en soumettant les détails de la transaction sur la plateforme Proof of Learn.

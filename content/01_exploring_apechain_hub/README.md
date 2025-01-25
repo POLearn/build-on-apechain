@@ -1,16 +1,15 @@
-Calling all aspiring Web3 creators! Dive into the exciting world of ApeChain, a high-performance blockchain built for the future. This course equips you with the essential skills to **Ape-proach Web3** like a pro. 
+Appel à tous les créateurs Web3 en herbe ! Plongez dans le monde passionnant d'ApeChain, une blockchain haute performance conçue pour l'avenir. Ce cours vous dote des compétences essentielles pour **aborder le Web3** comme un pro.  
 
-### What you'll learn:
+### Ce que vous apprendrez :  
 
-* **Master the Fundamentals:** Gain a solid understanding of ApeChain, its unique features, and its place in the Web3 ecosystem.
-* **NFT Development Deep Dive:** Explore the world of Non-Fungible Tokens (NFTs) and learn how to craft your own unique digital assets.
-* **ApeChain Deployment Mastery:**  Deploy your creations seamlessly onto the ApeChain network, ready to be shared and traded.
+* **Maîtriser les fondamentaux :** Acquérir une solide compréhension d'ApeChain, de ses fonctionnalités uniques et de sa place dans l'écosystème Web3.  
+* **Plongée profonde dans le développement NFT :** Explorez le monde des tokens non fongibles (NFTs) et apprenez à créer vos propres actifs numériques uniques.  
+* **Maîtrise du déploiement sur ApeChain :** Déployez vos créations de manière fluide sur le réseau ApeChain, prêtes à être partagées et échangées.  
 
-### By the end of this course, you'll be:
+### À la fin de ce cours, vous serez :  
 
-* Confidently navigating the ApeChain landscape.
-* Equipped to build and deploy your own NFTs on ApeChain.
-* Ready to unleash your creativity and contribute to the thriving ApeChain ecosystem.
+* Capable de naviguer avec confiance dans le paysage d'ApeChain.  
+* Équipé pour créer et déployer vos propres NFTs sur ApeChain.  
+* Prêt à libérer votre créativité et à contribuer à l'écosystème florissant d'ApeChain.  
 
-**Join us and become an ApeChain NFT developer today!**
-
+**Rejoignez-nous et devenez un développeur NFT sur ApeChain dès aujourd'hui !**  

@@ -1,20 +1,20 @@
-# 🚀 Quest: Deploy Your First NFT Contract  
+# 🚀 Mission : Déployer votre premier contrat NFT  
 
-Now we understood more about the NFT. Let begin this quest and deploy your very own NFT contract on ApeChain. But before deploying, let’s personalize the NFT contract to make it yours.  
+Maintenant que nous en savons plus sur les NFT, commençons cette mission et déployons votre propre contrat NFT sur ApeChain. Mais avant de déployer, personnalisons le contrat NFT pour le rendre unique.
 
-1. Change the contract **name** to `PolApeNFT`.  
-2. Update the **symbol** to `PAN`.  
+1. Changez le **nom** du contrat en `PolApeNFT`.
+2. Mettez à jour le **symbole** en `PAN`.
 
-In your IDE, ensure the compiler is set to **v0.8.26**. Using the correct version ensures compatibility with your contract code.  
+Dans votre IDE, assurez-vous que le compilateur est défini sur **v0.8.26**. Utiliser la version correcte garantit la compatibilité avec le code de votre contrat.
 
-![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/nft_version.png)  
+![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/nft_version.png)
 
-Once's that is compiled. From the list of contracts, select **`ApeNFT.sol`** for deployment.  
+Une fois compilé, parmi la liste des contrats, sélectionnez **`ApeNFT.sol`** pour le déploiement.
 
-![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/nft_select.png)  
+![](https://raw.githubusercontent.com/POLearn/build-on-apechain/refs/heads/master/content/assets/images/nft_select.png)
 
-You can deploy the contract. Make sure to add an initialOwner. This can be anyone, but typically it'll be the deployer address. once that done, click on deploy.
+Vous pouvez maintenant déployer le contrat. Assurez-vous d'ajouter un **initialOwner**. Cela peut être n'importe qui, mais typiquement, il s'agira de l'adresse du déployeur. Une fois cela fait, cliquez sur déployer.
 
-Complete the quest by submitting your transaction details to **Proof of Learn (PoL)**. This is your proof that you’ve successfully deployed the contract!  
+Complétez la mission en soumettant les détails de votre transaction à **Proof of Learn (PoL)**. C'est votre preuve que vous avez déployé le contrat avec succès !
 
-Congratulations! 🎉 You’ve deployed your first NFT contract on ApeChain. In the next section, we’ll going to mint your an NFT on ApeChain.
+Félicitations ! 🎉 Vous avez déployé votre premier contrat NFT sur ApeChain. Dans la section suivante, nous allons frapper un NFT sur ApeChain.
