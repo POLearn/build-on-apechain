@@ -11,7 +11,6 @@
             "path": "01_exploring_apechain_hub/04_apechain_faucet",
             "type": "value",
             "chain": "33111",
-            "from": "0x05C1A44374eE3dB90bCCEA6d5Bbda138d0874033",
             "value": "1000000000000000000"
         },
         {
